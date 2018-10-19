@@ -1,0 +1,29 @@
+{
+  "name": "OfertasBlack",
+  "version": "1.0.0",
+  "description": "Back-End de Ofertas con ayuda de Graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sounix/OfertasBlack.git"
+  },
+  "keywords": [],
+  "author": "Aldrin Gonzalez Cancino <sounix@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sounix/OfertasBlack/issues"
+  },
+  "homepage": "https://github.com/sounix/OfertasBlack#readme",
+  "dependencies": {
+    "apollo-server": "^2.1.0",
+    "casual": "^1.5.19",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
